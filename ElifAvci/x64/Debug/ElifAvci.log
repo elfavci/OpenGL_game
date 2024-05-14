@@ -1,0 +1,45 @@
+﻿  Source.cpp
+C:\Users\elif_\source\repos\ElifAvci\ElifAvci\Source.cpp(165,1): warning C4305: '*=': truncation from 'double' to 'float'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\xutility(149,77): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\memory(2010): message : see reference to function template instantiation 'void std::_Construct_in_place<_Ty,int,int,int,int,int>(_Ty &,int &&,int &&,int &&,int &&,int &&) noexcept(false)' being compiled
+          with
+          [
+              _Ty=Player
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\memory(2729): message : see reference to function template instantiation 'std::_Ref_count_obj2<Player>::_Ref_count_obj2<_Ty,_Ty,_Ty,_Ty,_Ty>(_Ty &&,_Ty &&,_Ty &&,_Ty &&,_Ty &&)' being compiled
+          with
+          [
+              _Ty=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\memory(2730): message : see reference to function template instantiation 'std::_Ref_count_obj2<Player>::_Ref_count_obj2<_Ty,_Ty,_Ty,_Ty,_Ty>(_Ty &&,_Ty &&,_Ty &&,_Ty &&,_Ty &&)' being compiled
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\elif_\source\repos\ElifAvci\ElifAvci\Source.cpp(336): message : see reference to function template instantiation 'std::shared_ptr<Player> std::make_shared<Player,int,int,int,int,int>(int &&,int &&,int &&,int &&,int &&)' being compiled
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\xutility(149,77): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\memory(2010): message : see reference to function template instantiation 'void std::_Construct_in_place<_Ty,int,int,int,int,double,double,double,double>(_Ty &,int &&,int &&,int &&,int &&,double &&,double &&,double &&,double &&) noexcept(false)' being compiled
+          with
+          [
+              _Ty=Enemy
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\memory(2729): message : see reference to function template instantiation 'std::_Ref_count_obj2<Enemy>::_Ref_count_obj2<_Ty,_Ty,_Ty,_Ty,double,double,double,double>(_Ty &&,_Ty &&,_Ty &&,_Ty &&,double &&,double &&,double &&,double &&)' being compiled
+          with
+          [
+              _Ty=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\memory(2730): message : see reference to function template instantiation 'std::_Ref_count_obj2<Enemy>::_Ref_count_obj2<_Ty,_Ty,_Ty,_Ty,double,double,double,double>(_Ty &&,_Ty &&,_Ty &&,_Ty &&,double &&,double &&,double &&,double &&)' being compiled
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\elif_\source\repos\ElifAvci\ElifAvci\Source.cpp(337): message : see reference to function template instantiation 'std::shared_ptr<Enemy> std::make_shared<Enemy,int,int,int,int,double,double,double,double>(int &&,int &&,int &&,int &&,double &&,double &&,double &&,double &&)' being compiled
+  ElifAvci.vcxproj -> C:\Users\elif_\source\repos\ElifAvci\x64\Debug\ElifAvci.exe
